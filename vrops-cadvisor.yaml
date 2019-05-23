@@ -1,4 +1,4 @@
-apiVersion: apps/v1beta2
+apiVersion: apps/v1beta2 # apps/v1beta2 in Kube 1.8, extensions/v1beta1 in Kube < 1.8
 kind: DaemonSet
 metadata:
   name: vrops-cadvisor
